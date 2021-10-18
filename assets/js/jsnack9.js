@@ -17,3 +17,5 @@ for (let i = 0; i < 10; i++) {
 
 console.log(sum);
 console.log(avg);
+
+document.querySelector('body').innerHTML = 'La somma è ' + sum + '. La media è ' + avg;
