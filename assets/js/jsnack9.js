@@ -1,10 +1,19 @@
-// Chiedi un numero di 4 cifre all’utente e calcola la somma di tutte le cifre che compongono il numero.
+// Calcola la somma e la media dei primi 10 numeri.
 
 /*
 STRUMENTI:
-- prompt
 - for
 - if (?)
 - innerHTML | append() | insertAdjacentHTML
 */
 
+let sum = 0;
+let avg = 0;
+
+for (let i = 0; i < 10; i++) {
+    sum += i;
+    avg += (i)/10;
+}
+
+console.log(sum);
+console.log(avg);
